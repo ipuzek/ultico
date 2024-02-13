@@ -15,7 +15,11 @@ print(area)
 ############################
 ### COMMENTING LINES #######
 ############################
+
+# as used in VS Code:
+
 # to comment MANY lines at a time, highlight all of them then CTRL+'
+
 # do CTRL+' again to uncomment them
 # try it on the next few lines below!
 
