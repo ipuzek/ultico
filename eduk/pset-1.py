@@ -86,8 +86,12 @@ print("all your inputs are:", "\n",
 
 amount_saved = 0
 counter = 0
-while amount_saved < portion_down_payment:
+while amount_saved <= portion_down_payment:
     amount_saved = amount_saved + portion_saved_f_1*(annual_salary_f_1 / 12)
     counter = counter + 1
-    
-print("no. of months to reach the portion upfront is", counter)
+
+if amount_saved == portion_down_payment:
+    print("no. of months to reach the portion upfront is EXACTLY", counter)
+else:
+    print("no. of months to reach the portion upfront is CCA", counter + 1)
+
