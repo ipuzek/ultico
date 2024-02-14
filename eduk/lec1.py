@@ -48,3 +48,44 @@ a_very_long_variable_name_dont_name_them_this_long_pls = 1
 # notice that Spyder also automatically adds the closed parentheses for you!
 
 print(a_very_long_variable_name_dont_name_them_this_long_pls)
+
+###
+
+import random
+
+random
+
+###
+
+# 1. steps
+# 2. flow control
+# 3. stop
+
+### = algorithm
+
+# scalar objects
+
+type(5)
+type(5.5)
+
+int(5.5)
+
+
+# not the same #
+5
+print(5)
+
+# remainder
+3%2
+
+## to the power
+
+3**2
+
+## vars
+
+bind = "bajnd"
+type(bind)
+
+## programs do not solve for (x)
+

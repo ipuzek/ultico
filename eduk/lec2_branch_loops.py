@@ -34,31 +34,49 @@ print("my fav number is" + x_str + "." + "x=" + x_str)
 # x is concatenate
 # , is just printing multiple objects
 
+print("3 + 3")
 
 ####################
 ## EXAMPLE: input
 ####################
-#text = input("Type anything... ")
-#print(5*text)
-#num = int(input("Type a number... "))
-#print(5*num)
 
+text = input("Type anything... ") ## input becomes a string!
+print(5*text)
+
+num = int(input("Type a number... ")) ## need to cast type
+print(5*num)
+
+## comparisons
+
+"a" > 5
+"a" != 5
+"a" < "b"
+
+
+# Zelda while #
+
+direction = input("which way?")
+while direction == "right":
+   direction = input("you're stuck, which way?")
+print("you got out")
 
 
 ####################
 ## EXAMPLE: conditionals/branching 
 ####################
-#x = float(input("Enter a number for x: "))
-#y = float(input("Enter a number for y: "))
-#if x == y:
-#    print("x and y are equal")
-#    if y != 0:
-#        print("therefore, x / y is", x/y)
-#elif x < y:
-#    print("x is smaller")
-#elif x > y:
-#    print("y is smaller")
-#print("thanks!")
+x = float(input("Enter a number for x: "))
+y = float(input("Enter a number for y: "))
+
+if x == y:
+   print("x and y are equal")
+   if y != 0:
+       print("therefore, x / y is", x/y)
+elif x < y:
+   print("x is smaller")
+elif x > y:
+   print("y is smaller")
+print("thanks!")
+
 
 
 
@@ -78,17 +96,21 @@ print("my fav number is" + x_str + "." + "x=" + x_str)
 ## twice and flip the table any more times than that. 
 ## Hint: use a counter
 ####################
-#n = input("You are in the Lost Forest\n****************\n****************\n :)\n****************\n****************\nGo left or right? ")
-#while n == "right" or n == "Right":
-#    n = input("You are in the Lost Forest\n****************\n******       ***\n  (╯°□°）╯︵ ┻━┻\n****************\n****************\nGo left or right? ")
-#print("\nYou got out of the Lost Forest!\n\o/")
+
+n = input("You are in the Lost Forest - Go left or right? ")
+while n == "right" or n == "Right":
+   n = input("You are in the Lost Forest - Go left or right? ")
+   print("You got out of the Lost Forest! \o/")
+   
 
 
 
-#n = 0
-#while n < 5:
-#    print(n)
-#    n = n+1
+
+
+n = 0
+while n < 5:
+   print(n)
+   n = n+1
 
 
 ####################
