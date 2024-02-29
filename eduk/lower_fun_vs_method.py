@@ -1,6 +1,12 @@
 # lower() vs .lower()
 
 U = input("Imaš li ušteđevine? Da/Ne ")
+U.lower()
+U
+uu = U.lower()
+uu
+(U, uu) # tuple
+
 
 if U.lower() == "da":
     USTD = int(input("molim te napiši dosadašnju ušteđevinu: "))

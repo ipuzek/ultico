@@ -17,6 +17,31 @@ locals()
 type(locals())
 
 
+### in class exerc ###
+
+x = float(input("Enter a number for x: "))
+y = float(input("Enter a number for y: "))
+if x == y:
+ if y != 0:
+   print("x / y is", x/y)
+elif x < y:
+ print("x is smaller")
+else:
+ print("y is smaller")
+
+
+def add(x, y):
+  return x+y
+
+def mult(x, y):
+   print(x*y)
+
+print(mult(3,4))
+
+add(1,2)
+print(add(2,3))
+mult(3,4)
+print(mult(4,5))
 
 ####################
 ## EXAMPLE: output 
